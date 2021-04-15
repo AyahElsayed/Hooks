@@ -53,10 +53,10 @@ function Counter() {
             ref={inputRef}
             />
             <br/>
-            {listOfCounts.map((conut) => <Button Counterfn={onClick} lable={conut} key={conut} n={conut} />)}
-            <Button Counterfn={onClick} lable={'Conut up..'} n={1}/>
+            {listOfCounts.map((conut) => <Button onClick={onClick} lable={conut} key={conut} n={conut} />)}
+            <Button onClick={onClick} lable={'Conut up..'} n={1}/>
             <h1 className="mt-3">{counter}</h1>
-            {/* <Button counterfn={handleTitle} lable={'Change title'}/> */}
+            {/* <Button onClick={handleTitle} lable={'Change title'}/> */}
 
         </div>
     )
