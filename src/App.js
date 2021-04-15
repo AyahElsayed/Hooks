@@ -3,6 +3,8 @@ import Counter from './Hooks/Counter';
 import Page from './Hooks/ContextEx/Page';
 import UseLayoutEffectEx from './Hooks/UseLayoutEffect';
 import UseReducerEx from './Hooks/UseReducerEx';
+import { MemoizationEx } from './Hooks/useMemo/MemoizationEx';
+import UseMemoEx from './Hooks/useMemo/useMemo';
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       {/* <Counter/>  */}
       {/* <UseLayoutEffectEx /> */}
       {/* <Page /> */}
-      <UseReducerEx />
+      {/* <UseReducerEx /> */}
+      {/* <MemoizationEx /> */}
+      <UseMemoEx />
     </div>
   );
 }
