@@ -46,7 +46,8 @@ function Counter() {
         },
         [setCounter],
     )
-
+// useCallback reduce the number of rendering
+// using with memoization
     return (
         <div className="container text-center pt-5">
             <input type="text"
